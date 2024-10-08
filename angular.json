@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngcs-test2": {
+    "ngcs-demo": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ngcs-test2",
+            "outputPath": "dist/ngcs-demo",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -68,10 +68,10 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngcs-test2:build:production"
+              "browserTarget": "ngcs-demo:build:production"
             },
             "development": {
-              "browserTarget": "ngcs-test2:build:development"
+              "browserTarget": "ngcs-demo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngcs-test2:build"
+            "browserTarget": "ngcs-demo:build"
           }
         },
         "test": {
