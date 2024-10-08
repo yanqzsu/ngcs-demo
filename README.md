@@ -1,7 +1,10 @@
 # ng-cornerstone DEMO
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a29854b3-a874-476f-8f3a-1590103d5d8c/deploy-status)](https://app.netlify.com/sites/angular-cornerstone-demo/deploys)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+
+[Netlify DEMO](https://angular-cornerstone-demo.netlify.app/)
+
+This project generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2 is a ng-cornerstone demo.
 
 ## Development server
 
